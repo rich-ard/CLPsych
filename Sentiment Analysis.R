@@ -227,7 +227,6 @@ first_person_singular_pronouns <- paste0('\\b', first_person_singular_pronouns, 
 first_person_plural_pronouns <- paste0('\\b', first_person_plural_pronouns, '\\b')
 third_person_singular_pronouns <- paste0('\\b', third_person_singular_pronouns, '\\b')
 third_person_plural_pronouns <- paste0('\\b', third_person_plural_pronouns, '\\b')
-# differentiation_liwc <- paste0('\\b', differentiation_liwc)
 
 # Create a document term matrix and data frame for collecting data:
 DTM <- DocumentTermMatrix(CleanCorpus)
